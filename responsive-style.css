@@ -1,0 +1,76 @@
+@media (max-width: 480px) {
+    /* Nav */
+.navegation {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  
+  .img-menu {
+    width: 35px;
+    display: block;
+  }
+
+/* section - home */
+
+.home{
+    display: block;
+}
+.container-img-athlete {
+    width: 85%;
+    margin: 2rem auto;
+  }
+  
+  .img-athlete {
+    width: 100%;
+  }
+  
+  .home-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .home-title {
+    width: 70%;
+  }
+  
+  .home-information {
+    padding-right: 1.5rem;
+  }
+  .home-title {
+    color: #232c50;
+    text-align: right;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+  }
+  
+  .home-paragraph {
+    color: #000;
+    text-align: right;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6rem;
+    width: 78%;
+  }
+  
+  .contact-btn {
+    border-radius: 3rem;
+    background: #8b48bf;
+    width: 7rem;
+    padding: 8px 4px;
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+    border: none;
+    margin: 1rem 0;
+  }
+
+}
