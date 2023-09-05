@@ -14,6 +14,9 @@
   align-items: center;
 }
 
+.img-menu{
+  display: none;
+}
 .logo {
   width: 120px;
 }
@@ -23,9 +26,15 @@
 }
 
 /* section - home */
+.home{
+  display: flex;
+  margin:0 10rem 0 10rem ;
+  align-items: center;
+
+}
 .container-img-athlete {
   width: 85%;
-  margin: 2rem auto;
+  margin: 2rem 0;
 }
 
 .img-athlete {
@@ -36,19 +45,18 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+
 }
 .home-title {
-  width: 70%;
+  width: 80%;
 }
 
-.home-information {
-  padding-right: 1.5rem;
-}
+
 .home-title {
   color: #232c50;
   text-align: right;
   font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 36px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 3rem;
@@ -79,9 +87,11 @@
 /* section - 1 */
 
 .section-1 {
-  background-color: #3cddf3; 
+  background-color: #8B48BF; 
   padding: 2.5rem 1.5rem;
   color: #fff;
+  display: flex;
+  
 }
 
 .question-title {
@@ -160,6 +170,8 @@
 footer{
   background-color: #1E1E26;
   font-family: "Be Vietnam Pro", sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 footer .newsletter{

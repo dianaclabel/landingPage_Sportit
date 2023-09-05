@@ -1,0 +1,126 @@
+@media (max-width: 480px) {
+    /* Nav */
+.navegation {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  
+  .img-menu {
+    width: 35px;
+    display: block;
+  }
+
+/* section - home */
+
+.home{
+    display: block;
+    margin: 2rem;
+}
+
+
+  .home-title {
+    width: 90%;
+  }
+  
+  .home-title {
+    font-size: 36px;
+  }
+  
+/* section - 1 */
+
+.section-1 {
+    background-color: #3cddf3; 
+    padding: 2.5rem 1.5rem;
+    color: #fff;
+    display: block;
+  }
+  
+  .question-title {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+  }
+  .answer {
+    padding-top: 2.5rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 95%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+
+
+
+
+  /* footer */
+footer{
+    background-color: #1E1E26;
+    font-family: "Be Vietnam Pro", sans-serif;
+    display: block;
+  }
+  
+  footer .newsletter{
+    padding: 2rem 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .newsletter input{
+    width: 70%;
+    line-height: 3rem;
+    border-radius: 50px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-right: 10px;
+  }
+  
+  footer button{
+    border-radius: 50px;
+    background: #8B48BF;
+    padding: 10px 20px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+  }
+  
+  footer .container_nav_items{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 4rem;
+  }
+  
+  footer .container_nav_items li{
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .container_icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem ;
+    padding: 2rem 1rem;
+  }
+  
+  .container_icons li{
+    list-style: none;
+  }
+  
+  .footer-logo{
+    text-align: center;
+  }
+  
+  .copyright{
+    color:#8C8C94 ;
+    text-align: center;
+    padding: 3rem ;
+  }
+  
+}
