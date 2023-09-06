@@ -17,6 +17,17 @@
     <header>
       <nav class="navegation">
         <img src="./assets/logo.svg" class="logo" alt="logo" />
+
+        <ul class="items-nav">
+          <li><a href="/">Sports</a></li>
+          <li><a href="/">Products</a></li>
+          <li><a href="/">About Us</a></li>
+          <li><a href="/">Trainning</a></li>
+          <li><a href="/">Community</a></li>
+        </ul>
+
+        <button class="contact-btn contact-nav">Contact</button>
+
         <img
           src="./assets/icon-hamburger.svg"
           class="img-menu"
@@ -41,7 +52,7 @@
             The final Open of the 2022 World Padel Tour season is underway,
             don't miss out on any of the action!
           </p>
-          <button class="contact-btn">Contact</button>
+          <button class="contact-btn btn-home">Contact</button>
         </div>
       </section>
       <section class="section-1">
@@ -95,104 +106,119 @@
       <section class="section-3">
         <h3 class="section-3_title">Best of the month</h3>
         <div class="container-cards">
-          <div class="item-card-1">
-            <img src="./assets/avatar-sanyo.png" alt="img-lebron" />
-            <h4>Sanyo</h4>
+          <div class="item-card-1 card">
+            <img
+              src="./assets/avatar-sanyo.png"
+              alt="img-Sanyo"
+              class="img-athlete-card"
+            />
+            <h4 class="athlete-name">Sanyo</h4>
             <p>
               Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat
               mauris, ut suscipit massa ipsum eu neque. Orci varius natoque
               penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             </p>
           </div>
-          <div class="item-card-2">
-            <img src="./assets/avatar.lebron.png" alt="img-lebron" />
-            <h4>Lebron</h4>
+          <div class="item-card-2 card">
+            <img
+              src="./assets/avatar.lebron.png"
+              alt="img-lebron"
+              class="img-athlete-card"
+            />
+            <h4 class="athlete-name">Lebron</h4>
             <p>
               Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat
               mauris, ut suscipit massa ipsum eu neque. Orci varius natoque
               penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             </p>
           </div>
-          <div class="item-card-3">
-            <img src="./assets/avatar-navarro.png" alt="img-lebron" />
-            <h4>Navarro</h4>
+          <div class="item-card-3 card">
+            <img
+              src="./assets/avatar-navarro.png"
+              alt="img-Navarro"
+              class="img-athlete-card"
+            />
+            <h4 class="athlete-name">Navarro</h4>
             <p>
               Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat
               mauris, ut suscipit massa ipsum eu neque. Orci varius natoque
               penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             </p>
           </div>
-          
-          
-        </div>
-        <div>
-          <button class="more_button">more</button>
         </div>
 
+        <button class="more_button">more</button>
       </section>
       <section class="section-4">
-        <div class="section-4_title"><span >Get to know the best teams of the year</span></div>
-        
-        <div>
+        <div class="section-4_title">
+          <span>Get to know the best teams of the year</span>
+        </div>
+        <div class="container-btn">
           <button>Go for it</button>
         </div>
-        
       </section>
     </main>
     <footer>
       <section class="newsletter">
-        <input type="text" placeholder="Update in your inbox..." />
-        <button>Go</button>
+        <div class="container-inbox">
+          <input type="text" placeholder="Update in your inbox..." />
+          <button>Go</button>
+        </div>
+        <section class="copyright copyright-web">
+          <span>Copyright 2020. All Rights Reserved</span>
+        </section>
       </section>
       <section class="container_nav_items">
-        <ul>
+        <ul class="items-footer-one">
           <li>Home</li>
           <li>Pricing</li>
           <li>Products</li>
           <li>About Us</li>
         </ul>
-        <ul>
+        <ul class="items-footer-two">
           <li>Trainning</li>
           <li>Community</li>
           <li>Privacy Policy</li>
         </ul>
       </section>
-      <section class="container_social">
-        <ul class="container_icons">
-          <li>
-            <a href="#">
-              <img src="./assets/icon-facebook.svg" alt="facebook" />
-            </a>
-          </li>
+      <div class="container-social-logo">
+        <section class="container_social">
+          <ul class="container_icons">
+            <li>
+              <a href="#">
+                <img src="./assets/icon-facebook.svg" alt="facebook" />
+              </a>
+            </li>
 
             <li>
               <a href="#">
-                <img src="./assets/icon-youtube.svg" alt="youtube" >
+                <img src="./assets/icon-youtube.svg" alt="youtube" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./assets/icon-twitter.svg" alt="twitter" >
+                <img src="./assets/icon-twitter.svg" alt="twitter" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./assets/icon-pinterest.svg" alt="pinterest" >
+                <img src="./assets/icon-pinterest.svg" alt="pinterest" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./assets/icon-instagram.svg" alt="instagram" >
+                <img src="./assets/icon-instagram.svg" alt="instagram" />
               </a>
             </li>
           </ul>
         </section>
         <section class="footer-logo">
-          <img src="./assets/logo_footer.png" alt="logo-sportit" >
+          <img src="./assets/logo_footer.png" alt="logo-sportit" />
         </section>
-        <section class="copyright">
-          <span>Copyright 2020. All Rights Reserved</span>
-        </section>
+      </div>
+      <section class="copyright copyright-mobile">
+        <span>Copyright 2020. All Rights Reserved</span>
+      </section>
     </footer>
   </body>
 </html>
