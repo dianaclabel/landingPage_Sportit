@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 /* Nav */
@@ -14,7 +13,7 @@
   align-items: center;
 }
 
-.img-menu{
+.img-menu {
   display: none;
 }
 .logo {
@@ -26,11 +25,10 @@
 }
 
 /* section - home */
-.home{
+.home {
   display: flex;
-  margin:0 10rem 0 10rem ;
+  margin: 0 10rem 0 10rem;
   align-items: center;
-
 }
 .container-img-athlete {
   width: 85%;
@@ -45,12 +43,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-
 }
 .home-title {
   width: 80%;
 }
-
 
 .home-title {
   color: #232c50;
@@ -87,11 +83,10 @@
 /* section - 1 */
 
 .section-1 {
-  background-color: #8B48BF; 
+  background-color: #8b48bf;
   padding: 2.5rem 1.5rem;
   color: #fff;
   display: flex;
-  
 }
 
 .question-title {
@@ -113,60 +108,56 @@
 /* section - 2 */
 .section-2 {
   /* margin: 4rem 0 4rem  2rem; */
-  color: #B3B2B7;
+  color: #b3b2b7;
   font-family: "Be Vietnam Pro", sans-serif;
   font-size: 14px;
   display: flex;
   flex-wrap: wrap;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   padding: 4rem 4rem;
   justify-content: center;
 }
 
-.section-2_card{
+.section-2_card {
   width: 50%;
 }
 
-.section-2 p{
+.section-2 p {
   margin: 1rem 2rem 2rem 7rem;
 }
 
-.number{
-  background-color:#8B48BF;
-  padding: 10px 25px ;
-  border-radius: 30px;  
+.number {
+  background-color: #8b48bf;
+  padding: 10px 25px;
+  border-radius: 30px;
   color: #ffffff;
   margin-right: 1rem;
 }
 
-.section-2_title{
+.section-2_title {
   /* background-color:rgba(139, 72, 191, 0.3); */
-  padding: 10px 25px ;
+  padding: 10px 25px;
   color: #323851;
   font-weight: bold;
-  
 }
 
 /* section - 3 */
 
-.section-3{
+.section-3 {
   text-align: center;
   padding: 7rem 4rem;
 }
 
-.section-3_title{
+.section-3_title {
   font-weight: 700;
   font-size: 39.21px;
   font-family: "Be Vietnam Pro", sans-serif;
 }
-.container-cards{
+.container-cards {
   display: flex;
 }
 
-
-
-
-.more_button{
+.more_button {
   border-radius: 3rem;
   background: #8b48bf;
   width: 7rem;
@@ -175,21 +166,19 @@
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 500;
   border: none;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
-.more_button:hover{
+.more_button:hover {
   cursor: pointer;
   background-color: rgba(139, 72, 191, 0.7);
 }
-
-
 
 /* section - 4 */
 .section-4 {
   color: #fff;
   padding: 2.5rem 1.5rem;
   font-family: "Be Vietnam Pro", sans-serif;
-  background-color: #8B48BF;
+  background-color: #8b48bf;
   font-size: 40px;
   display: flex;
   line-height: 47.84px;
@@ -199,39 +188,38 @@
   height: 224px;
 }
 
-.section-4 span{
+.section-4 span {
   width: 40%;
 }
 
-.section-4 button{
+.section-4 button {
   border-radius: 50px;
   background: #fff;
   width: 7rem;
   padding: 10px;
   font-family: "Be Vietnam Pro", sans-serif;
-  color: #8B48BF;
+  color: #8b48bf;
   font-weight: 500;
   border: none;
-  margin:  0;
+  margin: 0;
   box-shadow: rgba(0, 0, 0, 0.25);
 }
 
-
 /* footer */
-footer{
-  background-color: #1E1E26;
+footer {
+  background-color: #1e1e26;
   font-family: "Be Vietnam Pro", sans-serif;
   display: flex;
   flex-direction: row-reverse;
 }
 
-footer .newsletter{
+footer .newsletter {
   padding: 2rem 0;
   text-align: center;
   width: 100%;
 }
 
-.newsletter input{
+.newsletter input {
   width: 70%;
   line-height: 3rem;
   border-radius: 50px;
@@ -239,9 +227,9 @@ footer .newsletter{
   margin-right: 10px;
 }
 
-footer button{
+footer button {
   border-radius: 50px;
-  background: #8B48BF;
+  background: #8b48bf;
   padding: 10px 20px;
   font-family: "Be Vietnam Pro", sans-serif;
   color: #fff;
@@ -249,35 +237,35 @@ footer button{
   border: none;
 }
 
-footer .container_nav_items{
+footer .container_nav_items {
   color: #fff;
   display: flex;
   justify-content: space-between;
   margin: 1rem 4rem;
 }
 
-footer .container_nav_items li{
+footer .container_nav_items li {
   list-style: none;
   padding: 10px;
 }
 
-.container_icons{
+.container_icons {
   display: flex;
   justify-content: space-between;
-  margin: 1rem ;
+  margin: 1rem;
   padding: 2rem 1rem;
 }
 
-.container_icons li{
+.container_icons li {
   list-style: none;
 }
 
-.footer-logo{
+.footer-logo {
   text-align: center;
 }
 
-.copyright{
-  color:#8C8C94 ;
+.copyright {
+  color: #8c8c94;
   text-align: center;
-  padding: 3rem ;
+  padding: 3rem;
 }
