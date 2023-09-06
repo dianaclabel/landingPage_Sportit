@@ -7,7 +7,7 @@
 
 /* Nav */
 .navegation {
-  padding: 1rem 1.5rem;
+  padding: 1rem 7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,14 +24,33 @@
   width: 35px;
 }
 
+.items-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  font-family: "Be Vietnam Pro", sans-serif;
+  cursor: pointer;
+}
+
+.items-nav li a {
+  color: #242e52;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.items-nav li a:hover {
+  color: #b9b9c1;
+}
+
 /* section - home */
 .home {
   display: flex;
-  margin: 0 10rem 0 10rem;
+  margin: 0 7rem 0 7rem;
   align-items: center;
 }
 .container-img-athlete {
-  width: 85%;
+  width: 95%;
   margin: 2rem 0;
 }
 
@@ -52,7 +71,7 @@
   color: #232c50;
   text-align: right;
   font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 50px;
+  font-size: 52px;
   font-style: normal;
   font-weight: 700;
   line-height: 3rem;
@@ -67,6 +86,7 @@
   font-weight: 500;
   line-height: 1.6rem;
   width: 78%;
+  margin-top: 1rem;
 }
 
 .contact-btn {
@@ -80,30 +100,43 @@
   border: none;
   margin: 1rem 0;
 }
+
+.contact-btn:hover {
+  cursor: pointer;
+  background-color: rgba(139, 72, 191, 0.7);
+}
+
+.btn-home {
+  margin: 1.5rem 0;
+}
 /* section - 1 */
 
 .section-1 {
   background-color: #8b48bf;
-  padding: 2.5rem 1.5rem;
+  padding: 3.5rem 8rem;
   color: #fff;
   display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 6rem;
 }
 
 .question-title {
   font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   font-style: normal;
   font-weight: 700;
   line-height: 2.5rem;
+  width: 50%;
 }
 .answer {
-  padding-top: 2.5rem;
   font-family: "Be Vietnam Pro", sans-serif;
   width: 95%;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5rem;
+  width: 50%;
 }
 /* section - 2 */
 .section-2 {
@@ -114,7 +147,7 @@
   display: flex;
   flex-wrap: wrap;
   background-color: #fafafa;
-  padding: 4rem 4rem;
+  padding: 4rem 7rem;
   justify-content: center;
 }
 
@@ -145,16 +178,41 @@
 
 .section-3 {
   text-align: center;
-  padding: 7rem 4rem;
+  padding: 5rem 4rem;
 }
 
 .section-3_title {
+  color: #242e53;
+  margin: 3rem 0 4rem 0;
   font-weight: 700;
   font-size: 39.21px;
   font-family: "Be Vietnam Pro", sans-serif;
 }
+
+.athlete-name {
+  color: #3f4868;
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin: 1rem;
+}
+
 .container-cards {
   display: flex;
+}
+
+.card {
+  background-color: #fafafa;
+  width: 95%;
+  margin: 2rem auto 1rem auto;
+  padding: 3.5rem 1rem 2rem;
+  color: #b9b9c1;
+  font-family: "Be Vietnam Pro", sans-serif;
+  position: relative;
+}
+
+.img-athlete-card {
+  position: absolute;
+  transform: translate(-50%, -80%);
+  top: 8%;
 }
 
 .more_button {
@@ -176,20 +234,25 @@
 /* section - 4 */
 .section-4 {
   color: #fff;
-  padding: 2.5rem 1.5rem;
+  padding: 4rem 7rem;
   font-family: "Be Vietnam Pro", sans-serif;
   background-color: #8b48bf;
   font-size: 40px;
   display: flex;
   line-height: 47.84px;
   font-weight: 700;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 224px;
+  /* height: 224px; */
+  width: 100%;
 }
 
-.section-4 span {
-  width: 40%;
+.section-4_title {
+  width: 50%;
+}
+
+.container-btn {
+  width: 15%;
 }
 
 .section-4 button {
@@ -211,20 +274,37 @@ footer {
   font-family: "Be Vietnam Pro", sans-serif;
   display: flex;
   flex-direction: row-reverse;
+  padding: 3rem;
 }
 
 footer .newsletter {
   padding: 2rem 0;
   text-align: center;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-social-logo {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 55%;
+  justify-content: center;
+}
+
+.items-footer-one,
+.items-footer-two {
+  width: 200px;
 }
 
 .newsletter input {
-  width: 70%;
+  width: 55%;
   line-height: 3rem;
   border-radius: 50px;
   font-family: "Be Vietnam Pro", sans-serif;
   margin-right: 10px;
+  padding-left: 15px;
 }
 
 footer button {
@@ -238,10 +318,13 @@ footer button {
 }
 
 footer .container_nav_items {
+  width: 50%;
   color: #fff;
   display: flex;
   justify-content: space-between;
   margin: 1rem 4rem;
+  gap: 4rem;
+  align-items: center;
 }
 
 footer .container_nav_items li {
@@ -261,11 +344,15 @@ footer .container_nav_items li {
 }
 
 .footer-logo {
-  text-align: center;
+  /* text-align: right; */
+  padding: 1.5rem;
+}
+
+.copyright-mobile {
+  display: none;
 }
 
 .copyright {
   color: #8c8c94;
   text-align: center;
-  padding: 3rem;
 }
